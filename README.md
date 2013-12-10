@@ -48,14 +48,7 @@ Each function will go last for a certain period of time, so to move forward long
 	
 ##Example Code
 
-'''#include <msp430.h> 
-#include "motor.h"
-
-
-/*
- * main.c
- */
-int main(void) {
+'''int main(void) {
     WDTCTL = WDTPW | WDTHOLD;        // Stop watchdog timer
 
 
